@@ -58,7 +58,7 @@
           <div class="col-8">
             <div class="text-start fs-3 fw-bold text-white">
               <span>Hi,<br>l'am Gautam<br></span>
-              <strong><span id="element"></span></strong>
+              <strong>I am a <span id="element"></span></strong>
             </div>
           </div>
 
@@ -151,74 +151,133 @@
     <hr>
     <section id="projects" class="mt-5">
       <h2 class="fw-bold text-center">Projects</h2>
-      <div class="container my-5">
-        <div class="row row-cols-lg-4 row-cols-sm-1">
-          <div class="col mb-4 d-flex justify-content-center align-items-center">
-            <div class="card text-bg-dark shadow p-3 mb-5 rounded " style="width: 20rem;">
-              <img src="Assets/Todo-List.png" class="card-img-top" alt="Todo-List" style="height:16rem ;width: 16rem;">
-              <div class="card-body">
-                <h5 class="card-title fw-bold fs-3">Todo App</h5>
-                <p class="card-text">A streamlined task management app designed to help users efficiently organize....
-                </p>
-                <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="1"
-                  data-title="Todo App" data-image="Assets/Todo-List.png"
-                  data-details="A streamlined task management app designed to help users efficiently organize, prioritize, and track their to-do lists across all devices."
-                  data-link="https://github.com/gautam-08/Todolist.git">View Details</a>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4 d-flex justify-content-center align-items-center">
-            <div class="card text-bg-dark shadow p-3 mb-5 rounded " style="width: 20rem;">
-              <img src="Assets/News-Monkey.png" class="card-img-top" alt="News Monkey"
-                style="height:14rem ;width: 16rem;">
-              <div class="card-body">
-                <h5 class="card-title fw-bold fs-3">News Monkey</h5>
-                <p class="card-text"> Created NewsMonkey, a front-end project with HTML, CSS, Bootstrap, JSX, and
-                  React.js....</p>
-                <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="2"
-                  data-title="News Monkey" data-image="Assets\News-Monkey.png" data-details=" Created NewsMonkey, a front-end project with HTML, CSS, Bootstrap, JSX, and React.js implemented functionality to retrieve data in real time from an API, giving consumers an easy-to-use interface for daily
-                      news updates." data-link="https://github.com/gautam-08/Newsie.git">View Details</a>
-              </div>
-            </div>
-          </div>
+      <div class="row row-cols-lg-4 row-cols-sm-1 gap-3 justify-content-center align-items-center p-3">
 
-          <div class="col mb-4 d-flex justify-content-center align-items-center">
-            <div class="card text-bg-dark shadow p-3 mb-5  rounded " style="width: 20rem;">
-              <img src="/Assets/Database Coffee preperation.png" class="card-img-top img-fluid"
-                alt="Database for Coffee preperation" style="height:16rem ;width: 16rem;">
-              <div class="card-body">
-                <h4 class="card-title fw-bold fs-4">Database for Coffee Preparation App</h4>
-                <p class="card-text justify-content">Here we build an app where we are going keep track of coffee
-                  beans..... </p>
-                <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="3"
-                  data-title="Database for Coffee Preparation App" data-image="/Assets/Database Coffee preperation.png"
-                  data-details="Here we build an app where we are going keep track of coffee beans and keep track
-                    of the way that we've made the coffee with a percolator with our espresso machine or filter."
-                  data-link="https://github.com/gautam-08/Database-for-Coffee-Preparation-App.git">View Details</a>
-              </div>
+        <!-- <div class="col mb-4 d-flex justify-content-center align-items-center">
+          <div class="card text-bg-dark shadow p-3 mb-5 rounded" style="width: 20rem; height: 25rem;">
+            <img src="Assets/Todo-List.png" class="card-img-top" alt="Todo-List" style="height:100% ;width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-3">Todo App</h5>
+              <p class="card-text">A streamlined task management app designed to help users efficiently organize....
+              </p>
+              <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="1"
+                data-title="Todo App" data-image="Assets/Todo-List.png"
+                data-details="A streamlined task management app designed to help users efficiently organize, prioritize, and track their to-do lists across all devices."
+                data-link="https://github.com/gautam-08/Todolist.git">View Details</a>
             </div>
           </div>
-          <div class="col mb-4 d-flex justify-content-center align-items-center">
-            <div class="card text-bg-dark shadow p-3 mb-5  rounded" style="width: 20rem;">
-              <img src="Assets\DICE.jpg" class="card-img-top" alt="Automated Document Image Classification
-                and Database Report Generation System" style="height:16rem ;width: 16rem;">
-              <div class="card-body">
-                <h5 class="card-title fw-bold fs-5">Automated Document Image Classification
-                  and Database Report Generation System</h5>
-                <p class="card-text justify-content">Developing and Implementing a system with Skilled in
-                  accurately classifying documents, extracting ....</p>
-                <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="4"
-                  data-title="Automated Document Image Classification
+        </div>
+        <div class="col mb-4 d-flex justify-content-center align-items-center">
+          <div class="card text-bg-dark shadow p-3 mb-5 rounded " style="width: 20rem; height: 25rem;">
+            <img src="Assets/News-Monkey.png" class="card-img-top" alt="News Monkey" style="height:100% ;width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-3">News Monkey</h5>
+              <p class="card-text"> Created NewsMonkey, a front-end project with HTML,
+                CSS,
+                Bootstrap, JSX, and
+                React.js....</p>
+              <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="2"
+                data-title="News Monkey" data-image="Assets\News-Monkey.png" data-details=" Created NewsMonkey, a front-end project with HTML, CSS, Bootstrap, JSX, and React.js implemented functionality to retrieve data in real time from an API, giving consumers an easy-to-use interface for daily
+                      news updates." data-link="https://github.com/gautam-08/Newsie.git">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4 d-flex justify-content-center align-items-center">
+          <div class="card text-bg-dark shadow p-3 mb-5  rounded " style="width: 20rem; height: 25rem;">
+            <img src="/Assets/Database Coffee preperation.png" class="card-img-top"
+              alt="Database for Coffee preperation" style="height: 142px; width: 218px;">
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-3">Database for Coffee Preparation App</h5>
+              <p class="card-text">Here we build an app where we are going keep track of coffee
+                beans..... </p>
+              <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="3"
+                data-title="Database for Coffee Preparation App" data-image="/Assets/Database Coffee preperation.png"
+                data-details="Here we build an app where we are going keep track of coffee beans and keep track
+                    of the way that we've made the coffee with a percolator with our espresso machine or filter."
+                data-link="https://github.com/gautam-08/Database-for-Coffee-Preparation-App.git">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 d-flex justify-content-center align-items-center">
+          <div class="card text-bg-dark shadow p-3 mb-5  rounded" style="width: 20rem; height: 25rem;">
+            <img src="Assets\DICE.jpg" class="card-img-top" alt="Automated Document Image Classification
+                and Database Report Generation System" style="height:100% ;width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-5">Automated Document Image Classification
+                and Database Report Generation System</h5>
+              <p class="card-text justify-content">Developing and Implementing a system with Skilled in
+                accurately classifying documents, extracting ....</p>
+              <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="4"
+                data-title="Automated Document Image Classification
                     and Database Report Generation System" data-image="Assets\DICE.jpg" data-details="Developing and Implementing a system with Skilled in
                     accurately classifying documents, extracting Aadhar card
                     data from databases, and generating comprehensive
                     reports." data-link="https://github.com/gautam-08">View Details</a>
 
-              </div>
             </div>
           </div>
+        </div> -->
+
+
+        <div class="card shadow text-bg-dark" style="width: 18rem; height: 23rem;">
+          <img class="card-img-top p-3 rounded justify-content-center align-items-center" src="Assets/Todo-List.png"
+            alt="Card image cap" style="width: 261px; height: 173px;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold fs-5">Todo App</h5>
+            <p class="card-text">A streamlined task management app designed to help users efficiently organize....</p>
+            <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="1"
+              data-title="Todo App" data-image="Assets/Todo-List.png"
+              data-details="A streamlined task management app designed to help users efficiently organize, prioritize, and track their to-do lists across all devices."
+              data-link="https://github.com/gautam-08/Todolist.git">View Details</a>
+          </div>
         </div>
+        <div class="card shadow text-bg-dark" style="width: 18rem; height: 23rem;">
+          <img class="card-img-top p-3 rounded" src="Assets/News-Monkey.png" alt="Card image cap"
+            style="width: 261px; height: 173px;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold fs-5">Newsie</h5>
+            <p class="card-text">Created Newsie, a front-end project with HTML,
+              CSS,
+              Bootstrap, JSX, and
+              React.js....</p>
+            <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="2"
+              data-title="Newsie" data-image="Assets\News-Monkey.png" data-details=" Created Newsie, a front-end project with HTML, CSS, Bootstrap, JSX, and React.js implemented functionality to retrieve data in real time from an API, giving consumers an easy-to-use interface for daily
+                    news updates." data-link="https://github.com/gautam-08/Newsie.git">View Details</a>
+          </div>
+        </div>
+        <div class="card shadow text-bg-dark" style="width: 18rem; height: 23rem;">
+          <img class="card-img-top p-3 rounded" src="/Assets/Database Coffee preperation.png" alt="Card image cap"
+            style="width: 261px; height: 173px;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold fs-5">Database for Coffee...</h5>
+            <p class="card-text">Here we build an app where we are going keep track of coffee
+              beans.....</p>
+            <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="3"
+              data-title="Database for Coffee Preparation App" data-image="/Assets/Database Coffee preperation.png"
+              data-details="Here we build an app where we are going keep track of coffee beans and keep track
+                  of the way that we've made the coffee with a percolator with our espresso machine or filter."
+              data-link="https://github.com/gautam-08/Database-for-Coffee-Preparation-App.git">View Details</a>
+          </div>
+        </div>
+        <div class="card shadow text-bg-dark" style="width: 18rem; height: 23rem;">
+          <img class="card-img-top p-3 rounded" src="Assets\DICE.jpg" alt="Card image cap"
+            style="width: 261px; height: 173px;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold fs-5">Automated Document...</h5>
+            <p class="card-text">Developing and Implementing a system with Skilled in
+              accurately classifying documents...</p>
+            <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#projectModal" data-id="4"
+              data-title="Automated Document Image Classification
+                  and Database Report Generation System" data-image="Assets\DICE.jpg" data-details="Developing and Implementing a system with Skilled in
+                  accurately classifying documents, extracting Aadhar card
+                  data from databases, and generating comprehensive
+                  reports." data-link="https://github.com/gautam-08">View Details</a>
+          </div>
+        </div>
+
       </div>
+
     </section>
     <hr>
 
@@ -432,8 +491,9 @@
     crossorigin="anonymous"></script>
   <script>
     var typed = new Typed('#element', {
-      strings: ['I am a Programmar', 'I am a Web Developer'],
-      typeSpeed: 50,
+      strings: ['Programmar', 'Web Developer'],
+      typeSpeed: 100,
+      loop: true,
     });
   </script>
 </body>
